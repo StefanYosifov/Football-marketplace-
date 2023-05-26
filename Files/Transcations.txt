@@ -1,0 +1,24 @@
+FullName,Team,Price,Position,Date of transfer
+Cristiano Ronaldo, Juventus, 120, Goalkeeper, 2017-05-05
+Lionel Messi, Paris Saint-Germain, 150, Right Winger, 2022-09-15
+Neymar da Silva Santos Jr., Paris Saint-Germain, 180, Left Winger, 2023-03-07
+Kylian Mbappé, Paris Saint-Germain, 200, Forward, 2022-11-20
+Robert Lewandowski, Bayern Munich, 100, Forward, 2023-01-12
+Mohamed Salah, Liverpool, 120, Forward, 2022-08-28
+Kevin De Bruyne, Manchester City, 130, Midfielder, 2022-10-05
+Harry Kane, Tottenham Hotspur, 150, Forward, 2023-04-17
+Virgil van Dijk, Liverpool, 100, Defender, 2022-12-30
+Sergio Ramos, Paris Saint-Germain, 80, Defender, 2023-02-01
+Manuel Neuer, Bayern Munich, 60, Goalkeeper, 2023-03-22
+Eden Hazard, Real Madrid, 100, Forward, 2022-09-03
+Antoine Griezmann, Barcelona, 120, Forward, 2023-01-08
+Luis Suárez, Atletico Madrid, 80, Forward, 2022-11-11
+Paul Pogba, Manchester United, 90, Midfielder, 2023-02-26
+Luka Modrić, Real Madrid, 60, Midfielder, 2022-08-19
+Karim Benzema, Real Madrid, 80, Defensive Midfielder, 2023-05-10
+Romelu Lukaku, Inter Milan, 90, Defender, 2022-12-02
+Bruno Fernandes, Manchester United, 70, Midfielder, 2023-03-15
+Raheem Sterling, Manchester City, 100, Forward, 2022-10-22
+Thomas Müller, Bayern Munich, 50, Defender, 2023-04-03
+Toni Kroos, Real Madrid, 80, Midfielder, 2022-09-27
+N'Golo Kanté, Chelsea, 90, Defender, 2023-01-31

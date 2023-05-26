@@ -1,0 +1,24 @@
+FullName, Date of Birth, Team bought from, Price, Height, Weight, Position
+Cristiano Ronaldo, 1985, Juventus, 120, 190, 84, Goalkeeper
+Lionel Messi, 1987, Paris Saint - Germain, 150, 170, 72, Right Winger
+Neymar da Silva Santos Jr., 1992, Paris Saint - Germain, 180, 175, 68, Left Winger
+Kylian Mbappé, 1998, Paris Saint - Germain, 200, 178, 73, Forward
+Robert Lewandowski, 1988, Bayern Munich, 100, 185, 80, Forward
+Mohamed Salah, 1992, Liverpool, 120, 175, 71, Forward
+Kevin De Bruyne, 1991, Manchester City, 130, 181, 68, Midfielder
+Harry Kane, 1993, Tottenham Hotspur, 150, 188, 86, Forward
+Virgil van Dijk, 1991, Liverpool, 100, 193, 92, Defender
+Sergio Ramos, 1986, Paris Saint - Germain, 80, 184, 82, Defender
+Manuel Neuer, 1986, Bayern Munich, 60, 193, 93, Goalkeeper
+Eden Hazard, 1991, Real Madrid, 100, 175, 76, Forward
+Antoine Griezmann, 1991, Barcelona, 120, 176, 67, Forward
+Luis Suárez, 1987, Atletico Madrid, 80, 182, 85, Forward
+Paul Pogba, 1993, Manchester United, 90, 191, 84, Midfielder
+Luka Modrić, 1985, Real Madrid, 60, 172, 66, Midfielder
+Karim Benzema, 1987, Real Madrid, 80, 185, 81, Defensive Midfielder
+Romelu Lukaku, 1993, Inter Milan, 90, 190, 94, Defender
+Bruno Fernandes, 1994, Manchester United, 70, 179, 69, Midfielder
+Raheem Sterling, 1994, Manchester City, 100, 170, 70, Forward
+Thomas Müller, 1989, Bayern Munich, 50, 186, 75, Defender
+Toni Kroos, 1990, Real Madrid, 80, 183, 78, Defender Left Winger
+N'Golo Kanté,1991,Chelsea,90,168,70,Defender Right Winger
