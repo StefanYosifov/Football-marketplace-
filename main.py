@@ -3,8 +3,11 @@ import tkinter.font as tkFont
 import os
 import time
 from FileOperations.reader import readFromFile
-from Views.MyTeam import openMyTeam
+from Views.MyTeam import *
+from Views.Marketplace import *
+from Views.Transactions import *
 from tkinter import ttk,Tk
+from Util.directories import *
 
 
 class App:
@@ -13,10 +16,8 @@ class App:
     def __init__(self, root):
         
         def loadImage(self):
-            full_path = os.path.realpath(__file__)
-            current_directory = os.path.dirname(full_path)
             image_file = "/Files/Images/Background.png"
-            image_path = current_directory+ image_file
+            image_path = getImage(image_file)
 
             self.bg = PhotoImage(file=image_path)
 
@@ -32,7 +33,7 @@ class App:
         height = 400
         screenwidth = root.winfo_screenwidth()
         screenheight = root.winfo_screenheight()
-        alignstr = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
+        alignstr = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 1.5)
         root.geometry(alignstr)
         root.resizable(width=False, height=False)
 
@@ -42,24 +43,23 @@ class App:
         print("My team command")
         openMyTeam(root)
        
-       
     def GButton_467_command(self):
         print("Marketplace command")
+        openMarketPlace(root)
 
     def GButton_788_command(self):
         print("Deals history command")
+        openTransactions(root)
 
     def loadButtons(self):
         button_1 = Button(root, text="My Team", bg="#f0f0f0", font=('Times', 10), fg="#000000", justify="center",command=self.GButton_922_command)
         button_1.place(x=50, y=80, width=125, height=100)
 
-        button_2 = Button(root, text="Marketplace", bg="#f0f0f0", font=('Times', 10), fg="#000000", justify="center")
+        button_2 = Button(root, text="Marketplace", bg="#f0f0f0", font=('Times', 10), fg="#000000", justify="center",command=self.GButton_467_command)
         button_2.place(x=240, y=80, width=125, height=102)
-        button_2["command"] = app.GButton_467_command()
 
-        button_3 = Button(root, text="Deals history", bg="#f0f0f0", font=('Times', 10), fg="#000000", justify="center")
+        button_3 = Button(root, text="Deals history", bg="#f0f0f0", font=('Times', 10), fg="#000000", justify="center",command=self.GButton_788_command)
         button_3.place(x=440, y=80, width=125, height=101)
-        button_3["command"] = app.GButton_788_command()
 
 
 
