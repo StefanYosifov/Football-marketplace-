@@ -2,6 +2,15 @@ from tkinter import *
 import tkinter.font as tkFont
 import tkinter as tk
 
+def loadImage(self):
+            image_file = "/Files/Images/MY_team.png"
+            image_path = getImage(image_file)
+
+            self.bg = PhotoImage(file=image_path)
+
+            background_label = Label(root, image=self.bg)
+            background_label.place(x=0, y=0, relwidth=1, relheight=1)
+
 def openMarketPlace(root):
     new_window = Toplevel(root)
     new_window.title("New Window")
@@ -25,12 +34,12 @@ def openMarketPlace(root):
     GListBox_710.place(x=10,y=150,width=150,height=40)
 
 
-    def readFromFile(filename):
-        with open(filename, "r") as file:
+    def readFromFile(Marketplace.txt):
+        with open(Marketplace.txt, "r") as file:
             footballers = file.readlines()
         return footballers
 
-    Footballers = readFromFile("Marketplace.txt")
+    Footballers = readFromFile("...\Football-marketplace-\Files\Marketplace.txt")
 
     for footballer in Footballers:
         GListBox_710.insert(tk.END, footballer.strip())
