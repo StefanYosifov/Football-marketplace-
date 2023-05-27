@@ -1,5 +1,4 @@
 FullName, Date of Birth, Team bought from, Price, Height, Weight, Position
-Cristiano Ronaldo, 1985, Juventus, 120, 190, 84, Goalkeeper
 Lionel Messi, 1987, Paris Saint - Germain, 150, 170, 72, Right Winger
 Neymar da Silva Santos Jr., 1992, Paris Saint - Germain, 180, 175, 68, Left Winger
 Kylian Mbappé, 1998, Paris Saint - Germain, 200, 178, 73, Forward
@@ -21,4 +20,3 @@ Bruno Fernandes, 1994, Manchester United, 70, 179, 69, Midfielder
 Raheem Sterling, 1994, Manchester City, 100, 170, 70, Forward
 Thomas Müller, 1989, Bayern Munich, 50, 186, 75, Defender
 Toni Kroos, 1990, Real Madrid, 80, 183, 78, Defender Left Winger
-N'Golo Kanté,1991,Chelsea,90,168,70,Defender Right Winger

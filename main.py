@@ -18,11 +18,6 @@ class App:
             image_path = getImage(image_file)
 
             self.bg = PhotoImage(file=image_path)
-            print(image_path)
-            print(image_path)
-            print(image_path)
-            print(image_path)
-
             background_label = Label(root, image=self.bg)
             background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
