@@ -11,15 +11,17 @@ from Util.directories import *
 
 
 class App:
-
-
     def __init__(self, root):
-        
+        self.root = root
         def loadImage(self):
             image_file = "/Files/Images/Background.png"
             image_path = getImage(image_file)
 
             self.bg = PhotoImage(file=image_path)
+            print(image_path)
+            print(image_path)
+            print(image_path)
+            print(image_path)
 
             background_label = Label(root, image=self.bg)
             background_label.place(x=0, y=0, relwidth=1, relheight=1)
@@ -41,15 +43,16 @@ class App:
 
     def GButton_922_command(self):
         print("My team command")
-        openMyTeam(root)
+        openMyTeam(self.root)
+
        
     def GButton_467_command(self):
         print("Marketplace command")
-        openMarketPlace(root)
+        openMarketPlace(self.root)
 
     def GButton_788_command(self):
         print("Deals history command")
-        openTransactions(root)
+        openTransactions(self.root)
 
     def loadButtons(self):
         button_1 = Button(root, text="My Team", bg="#f0f0f0", font=('Times', 10), fg="#000000", justify="center",command=self.GButton_922_command)
