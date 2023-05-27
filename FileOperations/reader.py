@@ -3,14 +3,8 @@ import os
 def readFromFile(file):
     current_directory = os.path.abspath(os.path.join(__file__ ,"../.."))
 
-    print(current_directory)
-    print(current_directory)
-    print(current_directory)
-    print(current_directory)
-
     data = {}
     first_row = True 
-
 
     with open(newline="",file=current_directory + "/Files/" + file, mode="r") as f:
         for row in f:
@@ -31,3 +25,14 @@ def readFromFile(file):
 
     print(data)
     return data  
+
+
+def readFootballPlayerData(file,name):
+     current_directory = os.path.abspath(os.path.join(__file__ ,"../.."))
+     with open(newline="",file=current_directory + "/Files/" + file, mode="r") as f:
+        for row in f:
+            current_row=row.strip().split(", ")
+            if current_row[0]==name:
+                return current_row
+
+        return []

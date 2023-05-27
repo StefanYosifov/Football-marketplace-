@@ -1,6 +1,13 @@
 from tkinter import *
 import tkinter.font as tkFont
 import tkinter as tk
+from FileOperations.reader import readFromFile,readFootballPlayerData
+
+def GButton_198_command(self):
+    print("command")
+
+
+
 
 def loadImage(self):
             image_file = "/Files/Images/MY_team.png"
@@ -11,45 +18,82 @@ def loadImage(self):
             background_label = Label(root, image=self.bg)
             background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
-def openMarketPlace(root):
-    new_window = Toplevel(root)
+def openMarketPlace(self):
+    new_window = Toplevel(self)
     new_window.title("New Window")
-    width = 600
-    height = 400
-    screenwidth = root.winfo_screenwidth()
-    screenheight = root.winfo_screenheight()
+    width = 750
+    height = 700
+    screenwidth = new_window.winfo_screenwidth()
+    screenheight = new_window.winfo_screenheight()
     alignstr = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
     new_window.geometry(alignstr)
     new_window.resizable(width=False, height=False)
 
-    label = Label(new_window, text="This is a new window")
+    label = Label(new_window)
     label.pack()
 
-    GListBox_710=tk.Listbox(root)
+    def on_listbox_click(event):
+        selected_item = GListBox_710.get(GListBox_710.curselection())
+        print("Selected item:", selected_item)
+        data=readFootballPlayerData("Marketplace.txt",selected_item)
+        # full_name=data[0]
+        year=data[1]
+        team=data[2]
+        price=data[3]
+        height=data[4]
+        weight=data[5]
+        position=data[6]
+        GLabel_887["text"]=year
+        GLabel_234["text"]=team
+        GLabel_791["text"]=price
+        GLabel_973["text"]=height
+        GLabel_512["text"]=weight
+        GLabel_751["text"]=position
+        
+
+    GListBox_710=tk.Listbox(new_window)
     GListBox_710["borderwidth"] = "1px"
     ft = tkFont.Font(family='Times',size=10)
     GListBox_710["font"] = ft
     GListBox_710["fg"] = "#333333"
     GListBox_710["justify"] = "center"
-    GListBox_710.place(x=10,y=150,width=150,height=40)
+    GListBox_710.place(x=10,y=150,width=150,height=400)
+    GListBox_710.bind("<<ListboxSelect>>", on_listbox_click)
+    
+    footballers = readFromFile("Marketplace.txt")
+    def createListBox(data):
+        for footballer in data:
+            GListBox_710.insert(tk.END, footballer.strip())
+    
+    createListBox(footballers)
 
+    def on_lineEdit_search(event):
+        selected_item = GLineEdit_335.get()
+        GListBox_710.delete(0, tk.END)
 
-    def readFromFile(Marketplace.txt):
-        with open(Marketplace.txt, "r") as file:
-            footballers = file.readlines()
-        return footballers
+        footballers = readFromFile("Marketplace.txt")
+        for key in footballers:
+            if selected_item.lower() in key.lower():
+                GListBox_710.insert(tk.END, key)
 
-    Footballers = readFromFile("...\Football-marketplace-\Files\Marketplace.txt")
+        
 
-    for footballer in Footballers:
-        GListBox_710.insert(tk.END, footballer.strip())
+    GLineEdit_335=tk.Entry(new_window)
+    GLineEdit_335["borderwidth"] = "1px"
+    ft = tkFont.Font(family='Times',size=10)
+    GLineEdit_335["font"] = ft
+    GLineEdit_335["fg"] = "#333333"
+    GLineEdit_335["justify"] = "center"
+    GLineEdit_335["text"] = "Entry"
+    GLineEdit_335.place(x=10,y=100,width=200,height=40)
+    GLineEdit_335.bind("<Return>",on_lineEdit_search)
 
     GLabel_887=tk.Label(new_window)
     ft = tkFont.Font(family='Times',size=10)
     GLabel_887["font"] = ft
     GLabel_887["fg"] = "#333333"
     GLabel_887["justify"] = "center"
-    GLabel_887["text"] = "label"
+    GLabel_887["text"] = "Year of Birth"
     GLabel_887.place(x=160,y=150,width=70,height=40)
 
     GLabel_234=tk.Label(new_window)
@@ -57,7 +101,7 @@ def openMarketPlace(root):
     GLabel_234["font"] = ft
     GLabel_234["fg"] = "#333333"
     GLabel_234["justify"] = "center"
-    GLabel_234["text"] = "label"
+    GLabel_234["text"] = "Team"
     GLabel_234.place(x=230,y=150,width=70,height=40)
 
 
@@ -66,7 +110,7 @@ def openMarketPlace(root):
     GLabel_791["font"] = ft
     GLabel_791["fg"] = "#333333"
     GLabel_791["justify"] = "center"
-    GLabel_791["text"] = "label"
+    GLabel_791["text"] = "Price"
     GLabel_791.place(x=300,y=150,width=70,height=40)
 
 
@@ -75,7 +119,7 @@ def openMarketPlace(root):
     GLabel_973["font"] = ft
     GLabel_973["fg"] = "#333333"
     GLabel_973["justify"] = "center"
-    GLabel_973["text"] = "label"
+    GLabel_973["text"] = "Height"
     GLabel_973.place(x=370,y=150,width=70,height=40)
 
     GLabel_512=tk.Label(new_window)
@@ -83,7 +127,7 @@ def openMarketPlace(root):
     GLabel_512["font"] = ft
     GLabel_512["fg"] = "#333333"
     GLabel_512["justify"] = "center"
-    GLabel_512["text"] = "label"
+    GLabel_512["text"] = "Weight"
     GLabel_512.place(x=440,y=150,width=70,height=40)
 
 
@@ -92,7 +136,7 @@ def openMarketPlace(root):
     GLabel_751["font"] = ft
     GLabel_751["fg"] = "#333333"
     GLabel_751["justify"] = "center"
-    GLabel_751["text"] = "label"
+    GLabel_751["text"] = "Position"
     GLabel_751.place(x=510,y=150,width=70,height=40)
 
     GListBox_130=tk.Listbox(new_window)
@@ -111,10 +155,8 @@ def openMarketPlace(root):
     GButton_198["justify"] = "center"
     GButton_198["text"] = "Button"
     GButton_198.place(x=240,y=320,width=120,height=70)
-    GButton_198["command"] = self.GButton_198_command
+    GButton_198["command"] = GButton_198_command
 
-    def GButton_198_command(self):
-        print("command")
-root = tk.Tk()
-openMarketPlace(root)
-root.mainloop()
+
+
+

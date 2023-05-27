@@ -1,0 +1,24 @@
+FullName, Team,Price, Position, Date of transfer, Status
+Lionel Messi, Paris Saint-Germain, 150, Right Winger, 2022-09-15, In
+Neymar da Silva Santos Jr., Paris Saint-Germain, 180, Left Winger, 2023-03-07, In
+Kylian Mbappé, Paris Saint-Germain, 200, Forward, 2022-11-20, In
+Robert Lewandowski, Bayern Munich, 100, Forward, 2023-01-12, In
+Mohamed Salah, Liverpool, 120, Forward, 2022-08-28, In
+Kevin De Bruyne, Manchester City, 130, Midfielder, 2022-10-05, In
+Harry Kane, Tottenham Hotspur, 150, Forward, 2023-04-17, In
+Virgil van Dijk, Liverpool, 100, Defender, 2022-12-30, In
+Sergio Ramos, Paris Saint-Germain, 80, Defender, 2023-02-01, In
+Manuel Neuer, Bayern Munich, 60, Goalkeeper, 2023-03-22, In
+Eden Hazard, Real Madrid, 100, Forward, 2022-09-03, In
+Antoine Griezmann, Barcelona, 120, Forward, 2023-01-08, In
+Luis Suárez, Atletico Madrid, 80, Forward, 2022-11-11, In
+Paul Pogba, Manchester United, 90, Midfielder, 2023-02-26, In
+Luka Modrić, Real Madrid, 60, Midfielder, 2022-08-19, In
+Karim Benzema, Real Madrid, 80, Defensive Midfielder, 2023-05-10, In
+Bruno Fernandes, Manchester United, 70, Midfielder, 2023-03-15, In
+Raheem Sterling, Manchester City, 100, Forward, 2022-10-22, In
+Thomas Müller, Bayern Munich, 50, Defender, 2023-04-03, In
+Toni Kroos, Real Madrid, 80, Midfielder, 2022-09-27, In
+N'Golo Kanté, Chelsea, 90, Defender, 2023-01-31, In
+Cristiano Ronaldo, Juventus, 120, Goalkeeper, 2018-05-05, Out
+Romelu Lukaku, Inter Milan, 90, Defender, 2023-12-02, Out
