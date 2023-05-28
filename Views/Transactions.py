@@ -9,22 +9,13 @@ from Util.image import loadImage
 
 def openTransactions(self):
     new_window = Toplevel(self)
-    new_window.title("New Window")
-    width = 600
-    height = 400
-    screenwidth = new_window.winfo_screenwidth()
-    screenheight = new_window.winfo_screenheight()
-    alignstr = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
-    new_window.geometry(alignstr)
-    new_window.resizable(width=False, height=False)
-
-    image_file = "/Files/Images/My team.png"
+    image_file = "/Files/Images/Transferwindow.png"
     loadImage(new_window,image_file)
 
     
     new_window.title("Transactions")
-    width = 800
-    height = 750
+    width = 1000
+    height = 670
     screenwidth = new_window.winfo_screenwidth()
     screenheight = new_window.winfo_screenheight()
     alignstr = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
@@ -93,28 +84,26 @@ def openTransactions(self):
 
 def createTree(new_window,data):
     tree = ttk.Treeview(new_window)
-    tree["columns"] = ("Football player", "Birth Year", "Club", "Height", "Weight", "Age", "Position")
+    tree["columns"] = ("Football player", "Club", "Price", "Position", "Date of Transfer", "In/Out", )
 
     tree.column("#0", width=0, stretch=tk.NO)
-    tree.column("Football player", width=120)  
-    tree.column("Birth Year", width=100)
-    tree.column("Club", width=150)
-    tree.column("Height", width=50)
-    tree.column("Weight", width=50)
-    tree.column("Age", width=50)
-    tree.column("Position", width=100)
+    tree.column("Football player", width=200)  
+    tree.column("Club", width=100)
+    tree.column("Price", width=50)
+    tree.column("Position", width=150)
+    tree.column("Date of Transfer", width=100)
+    tree.column("In/Out", width=50)
 
     tree.heading("#0", text="Football player") 
     tree.heading("Football player", text="Football player") 
-    tree.heading("Birth Year", text="Birth Year")
     tree.heading("Club", text="Club")
-    tree.heading("Height", text="Height")
-    tree.heading("Weight", text="Weight")
-    tree.heading("Age", text="Age")
+    tree.heading("Price", text="Price")
     tree.heading("Position", text="Position")
+    tree.heading("Date of Transfer", text="Date of Transfer")
+    tree.heading("In/Out", text="In/Out")
 
     for element in data:
         tree.insert("", tk.END,values=element)
 
-    tree.place(x=0, y=330)
+    tree.place(x=80, y=280)
 
