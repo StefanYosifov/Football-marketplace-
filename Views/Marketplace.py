@@ -65,6 +65,10 @@ def openMarketPlace(self):
         transfer_data.append(current_date)
         transfer_data.append(status)
         transfer_string = ", ".join(str(item) for item in transfer_data)
+
+        transfer_log=readFootballPlayerData("Transactions.txt",full_name)
+        if len(transfer_log) >=1:
+            remove_row_by_name(transaction_file,full_name)
         add_row(transaction_file,transfer_string)
         remove_row_by_name(text_file,selected_name)
 

@@ -19,7 +19,6 @@ Thomas Müller, Bayern Munich, 50, Defender, 2023-04-03, In
 Toni Kroos, Real Madrid, 80, Midfielder, 2022-09-27, In
 N'Golo Kanté, Chelsea, 90, Defender, 2023-01-31, In
 Cristiano Ronaldo, Juventus, 120, Goalkeeper, 2018-05-05, Out
-Romelu Lukaku, Inter Milan, 90, Defender, 2023-12-02, Out
 Georgi Kostadinov, Dinamo Moscow, -  , Midfielder, 28-05-2023, In
 Nikolay Bodurov, Puskás Akadémia, -  , Defender, 28-05-2023, In
 Todor Nedelev, Botev Plovdiv, -  , Midfielder, 28-05-2023, In
@@ -27,10 +26,8 @@ Erling Haaland, Borussia Dortmund, 120, Forward, 28-05-2023, In
 Marco Reus, Borussia Dortmund, 50, Forward, 28-05-2023, In
 Kalidou Koulibaly, Napoli, 70, Defender, 28-05-2023, In
 Ivelin Popov, Retired, -  , Midfielder, 28-05-2023, In
-Romelu Lukaku, Inter Milan, 90, Forward, 28-05-2023, In
 Harry Kane, Tottenham Hotspur, 150, Forward, 28-05-2023, Out
 Thiago Alcantara, Liverpool, 50, Midfielder, 28-05-2023, In
 Jan Oblak, Atletico Madrid, 80, Goalkeeper, 28-05-2023, Out
-Jan Oblak, Atletico Madrid, 80, Goalkeeper, 28-05-2023, In
-Jan Oblak, Atletico Madrid, 80, Goalkeeper, 28-05-2023, Out
-Paul Pogba, Manchester United, 90, Midfielder, 28-05-2023, Out
+Paul Pogba, Manchester United, 90, Midfielder, 28-05-2023, In
+Romelu Lukaku, Inter Milan, 90, Forward, 28-05-2023, Out
