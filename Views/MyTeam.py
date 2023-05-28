@@ -9,6 +9,8 @@ from FileOperations.writer import remove_row_by_name,add_row
 from Util.image import loadImage
 from Util.directories import *
 from datetime import datetime
+import tkinter.font as tkFont
+
 
 
 text_file="MyTeam.txt"
@@ -94,6 +96,14 @@ def createTable(parent):
     tree.bind("<Double-Button-1>", lambda event: sellPlayer())
 
     tree.pack()
+
+    GLabel_667=tk.Label(parent)
+    ft = tkFont.Font(family='Times',size=10)
+    GLabel_667["font"] = ft
+    GLabel_667["fg"] = "#333333"
+    GLabel_667["justify"] = "center"
+    GLabel_667["text"] = "You can sell your team members by double-clicking on them"
+    GLabel_667.place(x=135,y=320,width=325,height=15)
 
 
 

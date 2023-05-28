@@ -73,10 +73,7 @@ def openMarketPlace(self):
         remove_row_by_name(text_file,selected_name)
 
         GListBox_710.delete(GListBox_710.curselection())
-        messagebox.showinfo("Success", f"{full_name} has been sold.")
-
-
-
+        messagebox.showinfo("Success", f"The transfer of {full_name} has been completed.")
 
     def on_listbox_click(event):
         selected_item = GListBox_710.get(GListBox_710.curselection())
