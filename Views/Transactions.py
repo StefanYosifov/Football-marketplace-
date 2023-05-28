@@ -3,6 +3,8 @@ import tkinter.font as tkFont
 import tkinter as tk
 from tkinter import ttk
 from FileOperations.reader import readFromFile 
+from Util.image import loadImage
+
 
 
 def openTransactions(self):
@@ -16,9 +18,10 @@ def openTransactions(self):
     new_window.geometry(alignstr)
     new_window.resizable(width=False, height=False)
 
-    label = Label(new_window, text="This is a new window")
-    label.pack()
+    image_file = "/Files/Images/My team.png"
+    loadImage(new_window,image_file)
 
+    
     new_window.title("Transactions")
     width = 800
     height = 750

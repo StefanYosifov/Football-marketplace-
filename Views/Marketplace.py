@@ -2,21 +2,33 @@ from tkinter import *
 import tkinter.font as tkFont
 import tkinter as tk
 from FileOperations.reader import readFromFile,readFootballPlayerData
+from FileOperations.writer import remove_row_by_name,add_row
+from Util.image import loadImage
+from Util.directories import *
+from datetime import datetime
 
-def GButton_198_command(self):
-    print("command")
 
 
 
+image_file="My team.png"
+text_file=getDirectoryTwoBack()+"/Files/Marketplace.txt"
+marketplace_file="Marketplace.txt"
+my_team_file=getDirectoryTwoBack()+"/Files/MyTeam.txt"
+print(my_team_file)
+print(my_team_file)
+print(my_team_file)
+print(my_team_file)
+print(my_team_file)
 
-def loadImage(self):
-            image_file = "/Files/Images/MY_team.png"
-            image_path = getImage(image_file)
+transaction_file=getDirectoryTwoBack()+"/Files/Transactions.txt"
 
-            self.bg = PhotoImage(file=image_path)
 
-            background_label = Label(root, image=self.bg)
-            background_label.place(x=0, y=0, relwidth=1, relheight=1)
+print(text_file)
+print(text_file)
+print(text_file)
+print(text_file)
+
+
 
 def openMarketPlace(self):
     new_window = Toplevel(self)
@@ -29,8 +41,41 @@ def openMarketPlace(self):
     new_window.geometry(alignstr)
     new_window.resizable(width=False, height=False)
 
+    
+    image_file = "/Files/Images/My Team.png"
+    loadImage(new_window,image_file)
+
     label = Label(new_window)
     label.pack()
+
+    def GButton_198_command():
+        selected_name=GListBox_710.get(GListBox_710.curselection())
+        print(selected_name)
+
+        player_data=readFootballPlayerData(marketplace_file,selected_name)
+
+        player_data_str=", ".join(str(item) for item in player_data)
+        add_row(my_team_file,player_data_str)
+        full_name = player_data[0]
+        team = player_data[2]
+        price =player_data[3]
+        position=player_data[6]
+        current_date = datetime.now().strftime("%d-%m-%Y")
+        status ="In"
+        transfer_data = []
+        transfer_data.append(full_name)
+        transfer_data.append(team)
+        transfer_data.append(price)
+        transfer_data.append(position)
+        transfer_data.append(current_date)
+        transfer_data.append(status)
+        transfer_string = ", ".join(str(item) for item in transfer_data)
+        add_row(transaction_file,transfer_string)
+        remove_row_by_name(text_file,selected_name)
+
+        GListBox_710.delete(GListBox_710.curselection())
+
+
 
     def on_listbox_click(event):
         selected_item = GListBox_710.get(GListBox_710.curselection())
@@ -153,7 +198,7 @@ def openMarketPlace(self):
     GButton_198["font"] = ft
     GButton_198["fg"] = "#000000"
     GButton_198["justify"] = "center"
-    GButton_198["text"] = "Button"
+    GButton_198["text"] = "Buy"
     GButton_198.place(x=240,y=320,width=120,height=70)
     GButton_198["command"] = GButton_198_command
 

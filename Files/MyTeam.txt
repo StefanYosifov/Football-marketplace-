@@ -20,3 +20,16 @@ Bruno Fernandes, 1994, Manchester United, 70, 179, 69, Midfielder
 Raheem Sterling, 1994, Manchester City, 100, 170, 70, Forward
 Thomas Müller, 1989, Bayern Munich, 50, 186, 75, Defender
 Toni Kroos, 1990, Real Madrid, 80, 183, 78, Defender Left Winger
+Riyad Mahrez, 1991, Manchester City, 70, 179, 67, Forward
+Marcelo, 1988, Real Madrid, 40, 174, 75, Defender
+Georgi Kostadinov, 1990, Dinamo Moscow, -  , 184, 74, Midfielder
+Ivelin Popov, Spartak Moscow, -  , Midfielder, 28-05-2023, In
+Nikolay Bodurov, 1986, Puskás Akadémia, -  , 190, 82, Defender
+Todor Nedelev, 1993, Botev Plovdiv, -  , 176, 70, Midfielder
+Erling Haaland, 2000, Borussia Dortmund, 120, 194, 88, Forward
+Aymeric Laporte, 1994, Manchester City, 70, 194, 85, Defender
+Marco Reus, 1989, Borussia Dortmund, 50, 180, 70, Forward
+Kalidou Koulibaly, 1991, Napoli, 70, 187, 89, Defender
+Ivelin Popov, 1979, Retired, -  , 187, 75, Midfielder
+Romelu Lukaku, 1993, Inter Milan, 90, 190, 94, Forward
+Jan Oblak, 1993, Atletico Madrid, 80, 188, 87, Goalkeeper

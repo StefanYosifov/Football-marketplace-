@@ -1,52 +1,24 @@
 FullName, Year of Birth, Team, Price, Height, Weight, Position
-Kane, 1993, Tottenham Hotspur, 150, 188, 86, Forward    
-Virgil van Dijk, 1991, Liverpool, 100, 193, 92, Defender    
-Sergio Ramos, 1986, Paris Saint - Germain, 80, 184, 82, Defender    
 Manuel Neuer, 1986, Bayern Munich, 60, 193, 93, Goalkeeper    
 Eden Hazard, 1991, Real Madrid, 100, 175, 76, Forward    
-Antoine Griezmann, 1991, Barcelona, 120, 176, 67, Forward    
-Luis Suárez, 1987, Atletico Madrid, 80, 182, 85, Forward    
-Paul Pogba, 1993, Manchester United, 90, 191, 84, Midfielder    
-Luka Modrić, 1985, Real Madrid, 60, 172, 66, Midfielder    
-Karim Benzema, 1987, Real Madrid, 80, 185, 81, Forward    
-Romelu Lukaku, 1993, Inter Milan, 90, 190, 94, Forward    
-Bruno Fernandes, 1994, Manchester United, 70, 179, 69, Midfielder    
+Luis Suarez, 1987, Atletico Madrid, 80, 182, 85, Forward    
+Luka Modric, 1985, Real Madrid, 60, 172, 66, Midfielder    
 Raheem Sterling, 1994, Manchester City, 100, 170, 70, Forward    
-Thomas Müller, 1989, Bayern Munich, 50, 186, 75, Forward    
+Thomas Muller, 1989, Bayern Munich, 50, 186, 75, Forward    
 Toni Kroos, 1990, Real Madrid, 80, 183, 78, Midfielder    
-N'Golo Kanté  , 1991,   Chelsea  , 90, 168, 70,   Midfielder    
+N'Golo Kante  , 1991,   Chelsea  , 90, 168, 70,   Midfielder    
 Jadon Sancho, 2000, Manchester United, 100, 180, 76, Forward    
 Joshua Kimmich, 1995, Bayern Munich, 70, 176, 73, Midfielder    
-Sadio Mané, 1992, Liverpool, 100, 174, 69, Forward,
-Trent Alexander - Arnold, 1998, Liverpool, 80, 180, 69, Defender    
-Riyad Mahrez, 1991, Manchester City, 70, 179, 67, Forward    
-Erling Haaland, 2000, Borussia Dortmund, 120, 194, 88, Forward    
 Alisson Becker, 1992, Liverpool, 70, 191, 91, Goalkeeper
-Marcelo, 1988, Real Madrid, 40, 174, 75, Defender    
-Sergio Agüero, 1988, Barcelona, 50, 173, 70, Forward    
+Sergio Aguero, 1988, Barcelona, 50, 173, 70, Forward    
 Ederson Moraes, 1993, Manchester City, 60, 188, 86, Goalkeeper    
-Thiago Alcântara, 1991, Liverpool, 50, 174, 70, Midfielder   
+Thiago Alcantara, 1991, Liverpool, 50, 174, 70, Midfielder   
 Gareth Bale, 1989, Real Madrid, 60, 185, 82, Forward    
 Andrea Belotti, 1993, Torino, 40, 181, 72, Forward    
-Kalidou Koulibaly, 1991, Napoli, 70, 187, 89, Defender    
-N'Golo Kanté  , 1991,   Chelsea  , 80, 168, 70,   Midfielder    
-Marco Reus, 1989, Borussia Dortmund, 50, 180, 70, Forward    
 Antoine Griezmann, 1991, Barcelona, 100, 176, 67, Forward    
-Jan Oblak, 1993, Atletico Madrid, 80, 188, 87, Goalkeeper    
 Paulo Dybala, 1993, Juventus, 90, 177, 75, Forward    
 Bernardo Silva, 1994, Manchester City, 70, 173, 64, Midfielder    
 Aymeric Laporte, 1994, Manchester City, 70.189, 85, Defender    
 Hristo Stoichkov, 1966, Retired, -  , 178, 72, Forward    
 Stiliyan Petrov, 1979, Retired, -  , 187, 75, Midfielder    
 Dimitar Berbatov, 1990, Ludogorets Razgrad, -  , 190, 84, Forward    
-Georgi Kostadinov, 1990, Dinamo Moscow, -  , 184, 74, Midfielder    
-Bozhidar Kraev, 1997, Midtjylland, -  , 182, 78, Midfielder    
-Ivelin Popov, 1987, Spartak Moscow, -  , 185, 78, Midfielder    
-Todor Nedelev, 1993, Botev Plovdiv, -  , 176, 70, Midfielder    
-Nikolay Bodurov, 1986, Puskás Akadémia, -  , 190, 82, Defender    
-Petar Zanev, 1986, Ludogorets Razgrad, -  , 176, 69, Defender    
-Spas Delev, 1989, PFC CSKA Sofia, -  , 190, 85, Forward    
-Simeon Slavchev, 1993, Ludogorets Razgrad, -  , 180, 72, Midfielder    
-Aleksandar Tonev, 1990, Partizan, -  , 174, 70, Midfielder    
-Stanislav Manolev, 1985, CSKA 1948, -  , 183, 74, Defender    
-Preslav Yordanov, 1995, Botev Plovdiv, -  , 181, 75, Forward    

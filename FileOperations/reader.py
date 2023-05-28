@@ -23,16 +23,17 @@ def readFromFile(file):
             values = footballerData[1:] 
             data[key].extend(values)
 
-    print(data)
     return data  
 
 
 def readFootballPlayerData(file,name):
      current_directory = os.path.abspath(os.path.join(__file__ ,"../.."))
+     print(current_directory)
      with open(newline="",file=current_directory + "/Files/" + file, mode="r") as f:
         for row in f:
             current_row=row.strip().split(", ")
             if current_row[0]==name:
+                print(f"{name} => {current_row}")
                 return current_row
 
         return []
