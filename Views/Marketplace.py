@@ -6,6 +6,7 @@ from FileOperations.writer import remove_row_by_name,add_row
 from Util.image import loadImage
 from Util.directories import *
 from datetime import datetime
+from tkinter import messagebox
 
 
 
@@ -14,12 +15,6 @@ image_file="My team.png"
 text_file=getDirectoryTwoBack()+"/Files/Marketplace.txt"
 marketplace_file="Marketplace.txt"
 my_team_file=getDirectoryTwoBack()+"/Files/MyTeam.txt"
-print(my_team_file)
-print(my_team_file)
-print(my_team_file)
-print(my_team_file)
-print(my_team_file)
-
 transaction_file=getDirectoryTwoBack()+"/Files/Transactions.txt"
 
 
@@ -74,6 +69,8 @@ def openMarketPlace(self):
         remove_row_by_name(text_file,selected_name)
 
         GListBox_710.delete(GListBox_710.curselection())
+        messagebox.showinfo("Success", f"{full_name} has been sold.")
+
 
 
 

@@ -5,14 +5,12 @@ Kylian Mbappé, Paris Saint-Germain, 200, Forward, 2022-11-20, In
 Robert Lewandowski, Bayern Munich, 100, Forward, 2023-01-12, In
 Mohamed Salah, Liverpool, 120, Forward, 2022-08-28, In
 Kevin De Bruyne, Manchester City, 130, Midfielder, 2022-10-05, In
-Harry Kane, Tottenham Hotspur, 150, Forward, 2023-04-17, In
 Virgil van Dijk, Liverpool, 100, Defender, 2022-12-30, In
 Sergio Ramos, Paris Saint-Germain, 80, Defender, 2023-02-01, In
 Manuel Neuer, Bayern Munich, 60, Goalkeeper, 2023-03-22, In
 Eden Hazard, Real Madrid, 100, Forward, 2022-09-03, In
 Antoine Griezmann, Barcelona, 120, Forward, 2023-01-08, In
 Luis Suárez, Atletico Madrid, 80, Forward, 2022-11-11, In
-Paul Pogba, Manchester United, 90, Midfielder, 2023-02-26, In
 Luka Modrić, Real Madrid, 60, Midfielder, 2022-08-19, In
 Karim Benzema, Real Madrid, 80, Defensive Midfielder, 2023-05-10, In
 Bruno Fernandes, Manchester United, 70, Midfielder, 2023-03-15, In
@@ -30,4 +28,9 @@ Marco Reus, Borussia Dortmund, 50, Forward, 28-05-2023, In
 Kalidou Koulibaly, Napoli, 70, Defender, 28-05-2023, In
 Ivelin Popov, Retired, -  , Midfielder, 28-05-2023, In
 Romelu Lukaku, Inter Milan, 90, Forward, 28-05-2023, In
+Harry Kane, Tottenham Hotspur, 150, Forward, 28-05-2023, Out
+Thiago Alcantara, Liverpool, 50, Midfielder, 28-05-2023, In
+Jan Oblak, Atletico Madrid, 80, Goalkeeper, 28-05-2023, Out
 Jan Oblak, Atletico Madrid, 80, Goalkeeper, 28-05-2023, In
+Jan Oblak, Atletico Madrid, 80, Goalkeeper, 28-05-2023, Out
+Paul Pogba, Manchester United, 90, Midfielder, 28-05-2023, Out
