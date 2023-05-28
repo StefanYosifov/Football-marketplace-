@@ -127,7 +127,7 @@ def openMarketPlace(self):
     GLineEdit_335["fg"] = "#333333"
     GLineEdit_335["justify"] = "center"
     GLineEdit_335["text"] = "Entry"
-    GLineEdit_335.place(x=10,y=100,width=200,height=40)
+    GLineEdit_335.place(x=10,y=100,width=250,height=30)
     GLineEdit_335.bind("<Return>",on_lineEdit_search)
 
     GLabel_887=tk.Label(new_window)
@@ -144,7 +144,15 @@ def openMarketPlace(self):
     GLabel_234["fg"] = "#333333"
     GLabel_234["justify"] = "center"
     GLabel_234["text"] = "Team"
-    GLabel_234.place(x=230,y=150,width=70,height=40)
+    GLabel_234.place(x=230,y=150,width=150,height=40)
+
+    GLabel_667=tk.Label(new_window)
+    ft = tkFont.Font(family='Times',size=10)
+    GLabel_667["font"] = ft
+    GLabel_667["fg"] = "#333333"
+    GLabel_667["justify"] = "center"
+    GLabel_667["text"] = "Use the imput box and press Enter for search."
+    GLabel_667.place(x=10,y=85,width=250,height=15)
 
 
     GLabel_791=tk.Label(new_window)
@@ -179,15 +187,7 @@ def openMarketPlace(self):
     GLabel_751["fg"] = "#333333"
     GLabel_751["justify"] = "center"
     GLabel_751["text"] = "Position"
-    GLabel_751.place(x=510,y=150,width=70,height=40)
-
-    GListBox_130=tk.Listbox(new_window)
-    GListBox_130["borderwidth"] = "1px"
-    ft = tkFont.Font(family='Times',size=10)
-    GListBox_130["font"] = ft
-    GListBox_130["fg"] = "#333333"
-    GListBox_130["justify"] = "center"
-    GListBox_130.place(x=240,y=20,width=120,height=70)
+    GLabel_751.place(x=510,y=150,width=100,height=40)
 
     GButton_198=tk.Button(new_window)
     GButton_198["bg"] = "#f0f0f0"
