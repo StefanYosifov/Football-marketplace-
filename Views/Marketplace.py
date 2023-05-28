@@ -144,7 +144,7 @@ def openMarketPlace(self):
     GLabel_234["fg"] = "#333333"
     GLabel_234["justify"] = "center"
     GLabel_234["text"] = "Team"
-    GLabel_234.place(x=230,y=150,width=150,height=40)
+    GLabel_234.place(x=230,y=150,width=110,height=40)
 
     GLabel_667=tk.Label(new_window)
     ft = tkFont.Font(family='Times',size=10)
@@ -161,7 +161,7 @@ def openMarketPlace(self):
     GLabel_791["fg"] = "#333333"
     GLabel_791["justify"] = "center"
     GLabel_791["text"] = "Price"
-    GLabel_791.place(x=300,y=150,width=70,height=40)
+    GLabel_791.place(x=340,y=150,width=60,height=40)
 
 
     GLabel_973=tk.Label(new_window)
@@ -170,7 +170,7 @@ def openMarketPlace(self):
     GLabel_973["fg"] = "#333333"
     GLabel_973["justify"] = "center"
     GLabel_973["text"] = "Height"
-    GLabel_973.place(x=370,y=150,width=70,height=40)
+    GLabel_973.place(x=400,y=150,width=40,height=40)
 
     GLabel_512=tk.Label(new_window)
     ft = tkFont.Font(family='Times',size=10)
