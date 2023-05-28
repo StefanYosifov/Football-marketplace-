@@ -23,4 +23,3 @@ Stiliyan Petrov, 1979, Retired, -  , 187, 75, Midfielder
 Dimitar Berbatov, 1990, Ludogorets Razgrad, -  , 190, 84, Forward    
 Harry Kane, 1993, Tottenham Hotspur, 150, 188, 86, Forward
 Jan Oblak, 1993, Atletico Madrid, 80, 188, 87, Goalkeeper
-Paul Pogba, 1993, Manchester United, 90, 191, 84, Midfielder

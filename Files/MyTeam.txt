@@ -30,3 +30,8 @@ Marco Reus, 1989, Borussia Dortmund, 50, 180, 70, Forward
 Kalidou Koulibaly, 1991, Napoli, 70, 187, 89, Defender
 Romelu Lukaku, 1993, Inter Milan, 90, 190, 94, Forward
 Thiago Alcantara, 1991, Liverpool, 50, 174, 70, Midfielder
+Ederson Moraes, 1993, Manchester City, 60, 188, 86, Goalkeeper
+Paul Pogba, 1993, Manchester United, 90, 191, 84, Midfielder
+Paul Pogba, 1993, Manchester United, 90, 191, 84, Midfielder
+Paul Pogba, 1993, Manchester United, 90, 191, 84, Midfielder
+Paul Pogba, 1993, Manchester United, 90, 191, 84, Midfielder

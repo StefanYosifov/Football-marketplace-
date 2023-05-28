@@ -31,6 +31,4 @@ Romelu Lukaku, Inter Milan, 90, Forward, 28-05-2023, In
 Harry Kane, Tottenham Hotspur, 150, Forward, 28-05-2023, Out
 Thiago Alcantara, Liverpool, 50, Midfielder, 28-05-2023, In
 Jan Oblak, Atletico Madrid, 80, Goalkeeper, 28-05-2023, Out
-Jan Oblak, Atletico Madrid, 80, Goalkeeper, 28-05-2023, In
-Jan Oblak, Atletico Madrid, 80, Goalkeeper, 28-05-2023, Out
-Paul Pogba, Manchester United, 90, Midfielder, 28-05-2023, Out
+Paul Pogba, Manchester United, 90, Midfielder, 28-05-2023, In
